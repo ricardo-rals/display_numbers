@@ -7,4 +7,4 @@
 
 extern const uint8_t numbers[10][NUM_PIXELS];
 
-#endif // NUMBERS_H
+#endif

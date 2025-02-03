@@ -9,4 +9,4 @@
 void button_init(uint gpio);
 void gpio_irq_handler(uint gpio, uint32_t events);
 
-#endif // BUTTON_CONTROL_H
+#endif

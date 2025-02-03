@@ -9,7 +9,8 @@
 #include "./includes/button_control.h"
 #include "./includes/matrix_display.h"
 
-int main() {
+int main()
+{
     // Initialize the red LED
     gpio_init(RED_LED);
     gpio_set_dir(RED_LED, GPIO_OUT);
@@ -38,7 +39,8 @@ int main() {
     gpio_set_irq_enabled_with_callback(BUTTON_B, GPIO_IRQ_EDGE_FALL, true, &gpio_irq_handler);
 
     // Main loop
-    while (true) {
+    while (true)
+    {
         // Blink the red LED
         blink_red_led();
     }

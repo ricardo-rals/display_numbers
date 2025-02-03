@@ -7,4 +7,4 @@
 
 void blink_red_led();
 
-#endif // LED_CONTROL_H
+#endif
